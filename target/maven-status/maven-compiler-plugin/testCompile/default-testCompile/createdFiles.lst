@@ -1,0 +1,6 @@
+com\specs\RequestSpec.class
+com\base\BaseTest.class
+com\specs\ResponseSpec.class
+com\test\AuthTest.class
+com\payload\LoginPayload.class
+com\utils\APIUtils.class
