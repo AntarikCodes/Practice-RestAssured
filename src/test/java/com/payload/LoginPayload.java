@@ -1,8 +1,23 @@
 package com.payload;
 
+
+
 public class LoginPayload {
-    public static String login(){
-        String data="{\n" + "  \"email\": \"065@example.com\",\n" + "  \"password\": \"secret123\"\n" +"}";
-        return data;
+   private String dataEmail;
+    private String dataPassword;
+    
+    //Getters
+    public void setCred(String email, String password){
+        this.dataEmail=email;
+        this.dataPassword=password;
+
+    }
+
+    //Setters
+    public String getEmail(){
+        return dataEmail;
+    }
+    public String getPassword(){
+        return dataPassword;
     }
 }

@@ -2,27 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-08T19:47:09 IST" name="Surefire suite" finished-at="2026-04-08T19:47:14 IST" duration-ms="5147">
+  <suite started-at="2026-04-08T22:09:14 IST" name="Surefire suite" finished-at="2026-04-08T22:09:18 IST" duration-ms="3692">
     <groups>
     </groups>
-    <test started-at="2026-04-08T19:47:09 IST" name="Surefire test" finished-at="2026-04-08T19:47:14 IST" duration-ms="5147">
+    <test started-at="2026-04-08T22:09:14 IST" name="Surefire test" finished-at="2026-04-08T22:09:18 IST" duration-ms="3692">
       <class name="com.test.AuthTest">
-        <test-method signature="postUser(org.testng.ITestContext)[pri:1, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T19:47:09 IST" name="postUser" finished-at="2026-04-08T19:47:14 IST" duration-ms="4766" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.AuthTest@63a65a25]" started-at="2026-04-08T22:09:14 IST" name="setUp" finished-at="2026-04-08T22:09:15 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postUser(org.testng.ITestContext)[pri:1, instance:com.test.AuthTest@63a65a25]" started-at="2026-04-08T22:09:15 IST" name="postUser" finished-at="2026-04-08T22:09:17 IST" duration-ms="2403" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7b9a4292]]>
+                <![CDATA[org.testng.TestRunner@299266e2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postUser -->
-        <test-method signature="getLogin(org.testng.ITestContext)[pri:0, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T19:47:14 IST" name="getLogin" finished-at="2026-04-08T19:47:14 IST" depends-on-methods="com.test.AuthTest.postUser" duration-ms="334" status="PASS">
+        <test-method signature="getLogin(org.testng.ITestContext)[pri:0, instance:com.test.AuthTest@63a65a25]" started-at="2026-04-08T22:09:17 IST" name="getLogin" finished-at="2026-04-08T22:09:18 IST" depends-on-methods="com.test.AuthTest.postUser" duration-ms="593" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7b9a4292]]>
+                <![CDATA[org.testng.TestRunner@299266e2]]>
               </value>
             </param>
           </params>
