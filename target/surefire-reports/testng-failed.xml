@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.AuthTest">
         <methods>
-          <include name="postUser"/>
-          <include name="postLogin" invocation-numbers="0"/>
+          <include name="postUser" invocation-numbers="0"/>
+          <include name="getLogin"/>
         </methods>
       </class> <!-- com.test.AuthTest -->
     </classes>
