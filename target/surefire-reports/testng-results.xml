@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-08T16:54:39 IST" name="Surefire suite" finished-at="2026-04-08T16:54:42 IST" duration-ms="2864">
+  <suite started-at="2026-04-08T19:47:09 IST" name="Surefire suite" finished-at="2026-04-08T19:47:14 IST" duration-ms="5147">
     <groups>
     </groups>
-    <test started-at="2026-04-08T16:54:39 IST" name="Surefire test" finished-at="2026-04-08T16:54:42 IST" duration-ms="2864">
+    <test started-at="2026-04-08T19:47:09 IST" name="Surefire test" finished-at="2026-04-08T19:47:14 IST" duration-ms="5147">
       <class name="com.test.AuthTest">
-        <test-method signature="postUser(org.testng.ITestContext)[pri:1, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T16:54:39 IST" name="postUser" finished-at="2026-04-08T16:54:42 IST" duration-ms="2582" status="PASS">
+        <test-method signature="postUser(org.testng.ITestContext)[pri:1, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T19:47:09 IST" name="postUser" finished-at="2026-04-08T19:47:14 IST" duration-ms="4766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postUser -->
-        <test-method signature="getLogin(org.testng.ITestContext)[pri:0, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T16:54:42 IST" name="getLogin" finished-at="2026-04-08T16:54:42 IST" depends-on-methods="com.test.AuthTest.postUser" duration-ms="234" status="PASS">
+        <test-method signature="getLogin(org.testng.ITestContext)[pri:0, instance:com.test.AuthTest@290d210d]" started-at="2026-04-08T19:47:14 IST" name="getLogin" finished-at="2026-04-08T19:47:14 IST" depends-on-methods="com.test.AuthTest.postUser" duration-ms="334" status="PASS">
           <params>
             <param index="0">
               <value>

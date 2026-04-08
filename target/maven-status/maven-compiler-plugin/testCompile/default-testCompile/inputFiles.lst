@@ -1,6 +1,7 @@
-C:\Users\USER\apitest\src\test\java\com\specs\ResponseSpec.java
-C:\Users\USER\apitest\src\test\java\com\specs\RequestSpec.java
-C:\Users\USER\apitest\src\test\java\com\payload\LoginPayload.java
-C:\Users\USER\apitest\src\test\java\com\base\BaseTest.java
-C:\Users\USER\apitest\src\test\java\com\utils\APIUtils.java
-C:\Users\USER\apitest\src\test\java\com\test\AuthTest.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\specs\ResponseSpec.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\utils\APIUtils.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\utils\ConfigReader.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\base\BaseTest.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\payload\LoginPayload.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\test\AuthTest.java
+C:\Users\USER\GitPractice\Practice-RestAssured\src\test\java\com\specs\RequestSpec.java
